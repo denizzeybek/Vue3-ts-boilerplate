@@ -1,3 +1,3 @@
-export enum EStoreNames {
+ export enum EStoreNames {
   COMMON = 'common',
 }

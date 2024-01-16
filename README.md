@@ -1,6 +1,8 @@
 # Vue3 TypeScript Boilerplate with Ant Design Vue and Tailwind CSS
 
-Welcome to this VueJS 3 boilerplate project, featuring a robust set of technologies to streamline your development process. Built with VueJS 3, TypeScript, Pinia state management, Ant Design Vue for UI components, and Tailwind CSS for styling, this boilerplate provides a solid foundation for creating modern and scalable web applications. Whether you are a seasoned developer or just starting with VueJS, this project offers a structured and efficient starting point for your next endeavor. Feel free to explore the codebase, contribute, and customize as needed. Happy coding!
+Welcome to this VueJS 3 boilerplate project, featuring a robust set of technologies to streamline your development process. Built with VueJS 3, TypeScript, Pinia state management, Ant Design Vue for UI components, and Tailwind CSS for styling, this boilerplate provides a solid foundation for creating modern and scalable web applications.
+
+Several UI components are integrated into this project, offering additional functionality and ease of use. Whether you are a seasoned developer or just starting with VueJS, this project offers a structured and efficient starting point for your next endeavor. Feel free to explore the codebase, contribute, and customize as needed. Happy coding!
 
 ## Technologies Used
 
@@ -9,6 +11,7 @@ Welcome to this VueJS 3 boilerplate project, featuring a robust set of technolog
 - Pinia
 - Ant Design Vue
 - Tailwind CSS
+- UI Components based on Ant Design
 
 ## Getting Started
 
