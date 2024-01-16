@@ -6,15 +6,15 @@ interface ExtendedPinia extends Pinia {
   _s: Map<string, Store>
 }
 
-const resetList = [EStoreNames.ADMIN, EStoreNames.AUTH]
+// const resetList = [EStoreNames.ADMIN, EStoreNames.AUTH]
 
 export const resetStores = () => {
   const pinia = getActivePinia() as ExtendedPinia
-  pinia._s.forEach((store) => {
-    if (resetList.includes(store.$id as EStoreNames)) {
-      store.$reset()
-    }
-  })
+  // pinia._s.forEach((store) => {
+  //   if (resetList.includes(store.$id as EStoreNames)) {
+  //     store.$reset()
+  //   }
+  // })
 }
 
 export default {

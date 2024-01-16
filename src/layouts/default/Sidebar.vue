@@ -53,36 +53,8 @@ const navItems = [
   },
   {
     icon: FileProtectOutlined,
-    routeName: ERouteNames.Invoices,
-    children: [ERouteNames.Invoices, ERouteNames.Invoices_Logs, ERouteNames.Invoices_Errors]
-  },
-  {
-    icon: FileDoneOutlined,
-    routeName: ERouteNames.Contracts
-  },
-  {
-    icon: UserOutlined,
-    routeName: 'Users',
-    children: [ERouteNames.Users_Talents, ERouteNames.Users_Businesses]
-  },
-  {
-    icon: BankOutlined,
-    routeName: ERouteNames.Organizations,
-    children: [ERouteNames.Organizations, ERouteNames.Organizations_Companies]
-  },
-  {
-    icon: TableOutlined,
-    routeName: 'Utils',
-    children: [
-      ERouteNames.Utils_Currencies,
-      ERouteNames.Utils_Countries,
-      ERouteNames.Utils_Occupations,
-      ERouteNames.Utils_jobCategories
-    ]
-  },
-  {
-    icon: FileDoneOutlined,
-    routeName: ERouteNames.Test
+    routeName: ERouteNames.Home,
+    children: [ERouteNames.Home]
   },
 ]
 

@@ -35,7 +35,7 @@ const router = useRouter()
 
 const handleLogout = () => {
   resetStores()
-  router.push({ name: ERouteNames.Login })
+  // router.push({ name: ERouteNames.Login })
 }
 
 </script>
