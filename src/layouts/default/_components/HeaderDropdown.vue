@@ -27,7 +27,6 @@
 <script setup lang="ts">
 import { Dropdown, Menu } from 'ant-design-vue'
 import UserIcon from '@/components/icons/common/User.vue'
-import { ERouteNames } from '@/constants/routeNames'
 import { useRouter } from 'vue-router'
 import { resetStores } from '@/plugins/pinia'
 
