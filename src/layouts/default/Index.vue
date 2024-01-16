@@ -6,7 +6,7 @@
       <LayoutContent :class="pagePadding" class="overflow-auto">
         <RouterView />
       </LayoutContent>
-      <LayoutFooter class="!px-5">Ruul ©2023</LayoutFooter>
+      <LayoutFooter class="!px-5">©2024</LayoutFooter>
     </Layout>
   </Layout>
 </template>
