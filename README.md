@@ -25,7 +25,7 @@ git clone https://github.com/denizzeybek/vue3-ts-boilerplate.git
 yarn install
 ```
 
-Or you can use this project as a theme by clicking the 'Use this template' button above.
+Or you can use this project as a template by clicking the 'Use this template' button above.
 
 ## Development
 
