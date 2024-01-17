@@ -39,7 +39,14 @@ To start the development server, use the following command:
 yarn dev
 ```
 
-The project will run at http://localhost:5173
+## Development
+
+To synchronize your local repository with the latest changes from this template, simply execute the following commands:
+
+```bash
+npx update-template https://github.com/denizzeybek/vue3-ts-boilerplate.git
+```
+
 
 ## ESLint
 
