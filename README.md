@@ -39,7 +39,7 @@ To start the development server, use the following command:
 yarn dev
 ```
 
-## Development
+## Synchronize From Template Repository
 
 To synchronize your local repository with the latest changes from this template, simply execute the following commands:
 
