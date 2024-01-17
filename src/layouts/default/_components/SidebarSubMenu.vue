@@ -4,7 +4,7 @@
       <component :is="item.icon" />
       <span>{{ item.routeName }}</span>
     </template>
-    <Menu.Item v-for="child in item.children" :key="child">
+    <Menu.Item v-for="(child, index) in item.children" :key="index">
       <RouterLink :to="{ name: child }" @click="resetPagination">
         <span>{{ child }}</span>
       </RouterLink>

@@ -5,7 +5,8 @@ import type { RouteRecordRaw } from 'vue-router';
 import DefaultLayout from '@/layouts/default/Index.vue';
 
 import Home from '@/views/Home.vue';
-import Secondary from '@/views/Secondary.vue';
+import StoreExample from '@/views/StoreExample.vue';
+import ValidationExample from '@/views/ValidationExample.vue';
 
 const routes: RouteRecordRaw[] = [
   // PROTECTED/DEFAULT ROUTES
@@ -23,10 +24,17 @@ const routes: RouteRecordRaw[] = [
         },
       },
       {
-        path: '/',
-        alias: '',
-        name: ERouteNames.Secondary,
-        component: Secondary,
+        path: '/store-example',
+        name: ERouteNames.StoreExample,
+        component: StoreExample,
+        meta: {
+          isLayoutPadding: false,
+        },
+      },
+      {
+        path: '/validation-example',
+        name: ERouteNames.ValidationExample,
+        component: ValidationExample,
         meta: {
           isLayoutPadding: false,
         },

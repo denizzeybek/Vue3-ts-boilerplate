@@ -7,10 +7,14 @@ Several UI components are integrated into this project, offering additional func
 ## Technologies Used
 
 - VueJS v3
+- Vite
 - Typescript
 - Pinia
+- Vue Router
 - Ant Design Vue
 - Tailwind CSS
+- Axios
+- EsLint - Prettier
 - UI Components based on Ant Design
 
 ## Getting Started

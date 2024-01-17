@@ -6,6 +6,11 @@ const router = createRouter({
   history: createWebHistory(),
   routes
 })
+
+router.beforeEach(async (to, _, next) => {
+  next()
+})
+
 // SET PAGE TITLE
 const DEFAULT_TITLE = 'Vue3'
 router.afterEach((to) => {

@@ -49,8 +49,8 @@ const navItems = [
   },
   {
     icon: FileProtectOutlined,
-    routeName: ERouteNames.SecondaryTitle,
-    children: [ERouteNames.Secondary],
+    routeName: 'test',
+    children: [ERouteNames.StoreExample, ERouteNames.ValidationExample],
   },
 ];
 
