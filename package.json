@@ -10,7 +10,8 @@
     "build-only": "vite build",
     "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
-    "format": "prettier --write src/"
+    "format": "prettier --write src/",
+    "update-template": "update-template https://github.com/denizzeybek/vue3-ts-boilerplate.git"
   },
   "dependencies": {
     "@ant-design/icons-vue": "^7.0.0",
@@ -21,6 +22,7 @@
     "pinia": "^2.1.6",
     "postcss": "^8.4.30",
     "tailwindcss": "^3.3.3",
+    "update-template": "^1.3.1",
     "vee-validate": "^4.11.3",
     "vue": "^3.3.4",
     "vue-router": "^4.2.4",
